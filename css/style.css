@@ -8,3 +8,14 @@
 body{
     background: var(--color-prymary);
 }
+
+.SolSolecito{
+    background: #000;
+    border-radius: 100;
+}
+
+.Recuadros_inferiores{
+    background: #2c2a2a;
+    border: #fff;
+    border-radius: 20;
+}

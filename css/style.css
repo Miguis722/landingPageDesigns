@@ -33,3 +33,8 @@ body{
     display: flex;
     justify-content: right;
 }
+
+.texto{
+    color: var(--color-text-primary);
+    
+}

@@ -8,3 +8,26 @@
 body{
     background: var(--color-prymary);
 }
+
+h1 {
+    font-family: var(--fuente-poppins-black);
+    text-align: center;
+}
+
+p {
+    font-family: var(--ruta-poppins-bold);
+    text-align: center;
+}
+
+.Explore {
+    background: #000;
+    border-radius: 20%;
+    font-family: var(--ruta-poppins-bold);
+    color: var(--color-prymary);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 5vh;
+    width: 15vh;
+    margin: 20px auto;
+}

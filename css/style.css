@@ -12,15 +12,17 @@ body{
 h1 {
     font-family: var(--fuente-poppins-black);
     text-align: center;
+    font-size: 7.6vh;
 }
 
 p {
     font-family: var(--ruta-poppins-bold);
     text-align: center;
+    font-size: 2.4vh;
 }
 
 .Explore {
-    background: #000;
+    background: #252525;
     border-radius: 20%;
     font-family: var(--ruta-poppins-bold);
     color: var(--color-prymary);
@@ -30,4 +32,19 @@ p {
     height: 5vh;
     width: 15vh;
     margin: 20px auto;
+}
+.Inferior,
+.Superior {
+    border-radius: 20vh;
+    align-items: flex-start;
+    display: flex;
+    gap: 2vh;
+    align-items: center;
+    justify-content: center;
+}
+
+img{
+    height: 30vh;
+    width: 30vh;
+    
 }

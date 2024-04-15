@@ -1,6 +1,6 @@
 :root{
     --color-prymary: #fff;
     --color-secundario: #000;
-    --ruta-poppins-black: url('../storage/font/Poppins/Poppins-Black.ttf');
+    --ruta-poppins-black: url('../storage/font/Poppins/Poppins-Bold.ttf');
     --ruta-poppins-bold: url('../storage/font/Poppins/Poppins-ExtraLightItalic.ttf');
 }

@@ -11,8 +11,13 @@ body{
 
 }
 
-.tittle .h1{
-    color: var(--color-texto);
+h1{
+    font-size: 4vh;
+    text-align: left;
+}
+button{
+    color: #fff;
+    background: #000;
 }
 
 .container {
@@ -32,7 +37,7 @@ body{
 .images .superior_izquierda,
 .images .superior_derecha {
     display: flex;
-    width: 45%; 
+    width: 10%; 
     height: 50vh;
     flex-direction: column;
     align-items: center;
@@ -40,8 +45,19 @@ body{
 
 .images .superior_izquierda {
     padding-bottom: 13vh;
+    width: 50vh;
 }
 
 .images .superior_derecha {
     padding-top: 9vh;
+    width: 50vh;
+}
+
+.Numeros_encimeros {
+    font-size: 4vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    text-align: left;
+    color: #808080;
 }

@@ -1,7 +1,8 @@
 @import url(variables.css);
 *{
     padding: 0;
-    margin: 3;
+    margin: 2vh;
+    margin-left: 1vh;
     box-sizing: border-box;
 }
 
@@ -10,14 +11,18 @@ body{
     color: var(--color-secundary);
 }
 
+
+.Texto {
+    text-align: justify;
+}
+
 .Explore {
-    background: var(--color-secundary);
-    border-radius: 20%;
     color: var(--color-primary);
+    background: var(--color-secondary);
+    border-radius: 20%;
     display: flex;
     align-items: center;
     justify-content: center;
-    height: 5vh;
+    height: auto;
     width: 15vh;
-    margin: 20px auto;
 }

@@ -35,7 +35,8 @@ h1{
     flex-direction: column;
     align-items: center;
     margin-top: -40vh;
-    width: 100%;
+    width: 200vh; /* Ajusta el espacio entre elementos dentro del contenedor */
+    margin-bottom: -8vh; /* Cambia este valor según tus necesidades */
 }
 
 .images {
@@ -55,12 +56,12 @@ h1{
 
 .images .superior_izquierda {
     padding-bottom: 13vh;
-    width: 50vh;
+    width: 30vh;
 }
 
 .images .superior_derecha {
     padding-top: 9vh;
-    width: 50vh;
+    width: 30vh;
 }
 
 .Numeros_encimeros {
@@ -76,6 +77,6 @@ h1{
 .Imagenes {
     display: flex;
     justify-content: space-around;
-    width: 100%;
-
+    width: auto;
+    height: 37vh;
 }

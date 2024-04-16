@@ -12,17 +12,42 @@ body{
 }
 
 
-.Texto {
-    text-align: justify;
+header {
+    background: var(--color-primary);
+    color: var(--color-secundary);
+    padding: 2vh;
+}
+
+header .Texto {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header h1 {
+    font-size: 12vh;
+    margin: 0;
+}
+
+.Texto > div {
+    text-align: right; 
+}
+
+.Texto > div p {
+    margin-bottom: 2vh;
 }
 
 .Explore {
-    color: var(--color-primary);
-    background: var(--color-secondary);
+    width: 15vh;
     border-radius: 20%;
     display: flex;
     align-items: center;
     justify-content: center;
-    height: auto;
-    width: 15vh;
+    background: var(--color-secondary);
+    color: var(--color-primary);
+}
+
+main .IMagen img .Externocleidomastoideo {
+    height: 68vh;
+    
 }

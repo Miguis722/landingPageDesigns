@@ -15,10 +15,20 @@ h1{
     font-size: 4vh;
     text-align: left;
 }
-button{
-    color: #fff;
-    background: #000;
+
+
+.Explore {
+    border-radius: 20%;
+    color: var(--color-prymary);
+    background: var(--color-texto);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 5vh;
+    width: 15vh;
+    margin-left: 9vh;
 }
+
 
 .container {
     display: flex;
@@ -60,4 +70,12 @@ button{
     justify-content: space-around;
     text-align: left;
     color: #808080;
+    
+}
+
+.Imagenes {
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+
 }

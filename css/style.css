@@ -1,10 +1,23 @@
 @import url(variables.css);
 *{
     padding: 0;
-    margin: 0;
+    margin: 3;
     box-sizing: border-box;
 }
 
 body{
-    background: var(--color-prymary);
+    background: var(--color-primary);
+    color: var(--color-secundary);
+}
+
+.Explore {
+    background: var(--color-secundary);
+    border-radius: 20%;
+    color: var(--color-primary);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 5vh;
+    width: 15vh;
+    margin: 20px auto;
 }

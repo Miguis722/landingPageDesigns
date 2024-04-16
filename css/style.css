@@ -12,7 +12,7 @@ body{
 }
 
 h1{
-    font-size: 7vh;
+    font-size: 12vh;
     text-align: left;
 }
 
@@ -26,10 +26,12 @@ h1{
 }
 
 .Texto {
-    font-size: 4vh;
-    text-align: justify;
+    margin-left: 6vh;
+    font-size: 3vh;
+    text-align: start;
     display: flex;
     flex-direction: row;
+    gap: 9vh;
 }
 
 
@@ -38,11 +40,9 @@ h1{
 }
 
 .Texto .a{
-    
     justify-content: center;
 }
 .Texto .b {
-    
     justify-content: flex-end;
 }
 
@@ -50,4 +50,8 @@ h1{
     display: flex;
     flex-direction: row;
     justify-content: space-around;
+    height: 45vh;
+    width: 45vh;
+    gap: 8vh;
+    margin-left: 5vh;
 }

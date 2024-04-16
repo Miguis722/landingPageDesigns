@@ -31,7 +31,7 @@ h1{
     text-align: start;
     display: flex;
     flex-direction: row;
-    gap: 9vh;
+    justify-content: space-around;
 }
 
 
@@ -50,8 +50,19 @@ h1{
     display: flex;
     flex-direction: row;
     justify-content: space-around;
-    height: 45vh;
-    width: 45vh;
-    gap: 8vh;
-    margin-left: 5vh;
+    height: 43vh;
+    width: 26vh;
+    gap: 11vh;
+    margin-left: 12vh;
+}
+
+.Imagenes_internas .as{
+    justify-content: flex-start;
+}
+
+.Imagenes_internas .bs{
+    justify-content: center;
+}
+.Imagenes_internas .cs{
+    justify-content: flex-end;
 }

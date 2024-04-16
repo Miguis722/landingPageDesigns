@@ -24,6 +24,11 @@ header .Texto {
     align-items: center;
 }
 
+header .Explore {
+    font-size: auto;
+    margin: 0;
+}
+
 header h1 {
     font-size: 12vh;
     margin: 0;

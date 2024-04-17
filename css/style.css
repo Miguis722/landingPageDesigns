@@ -2,7 +2,7 @@
 *{
     padding: 0;
     margin: 0;
-    margin-top: 2vh;
+    margin-top: 1vh;
     box-sizing: border-box;
 }
 
@@ -11,6 +11,15 @@ body{
     color: var(--color-text-primary);
 }
 
+.container {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: -20vh;
+}
+/* Esto NO se tocá más */
+.leftie, .rightie {
+    width: 100%;
+}
 
 .leftie {
     display: flex;
@@ -20,7 +29,7 @@ body{
 }
 
 .leftie img {
-    height: 95vh;
+    height: 96vh;
 }
 .rightie{
     display: flex;

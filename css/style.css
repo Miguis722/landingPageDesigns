@@ -7,7 +7,7 @@
 }
 
 body{
-    background: var(--color-primary);
+    background: var(--color-text-tercero);
     color: var(--color-text-primary);
 }
 
@@ -35,4 +35,38 @@ body{
     display: flex;
     justify-content: justify;
     align-items: right;
+    flex-direction: column;
+    width: 100vh;
+
+}
+
+.rightie h1 {
+    font-size: 7vh;
+    font-weight: 700;
+}
+
+.rightie .content, .rightie .Texto, .rightie .Texto2 {
+    font-size: 3.5vh;
+    font-weight: 400;
+}
+
+.rightie .Explore {
+    background: var(--color-text-primary);
+    color: var(--color-text-tercero);
+    display: flex;
+    margin-top: 2vh;
+    width: 15vh;
+    height: 5vh;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+    border-radius: 20%;
+    font-size: 3vh;
+    font-weight: 700;
+}
+
+.rightie .número01, .rightie .número02{
+    color: var(--color-text-secundary);
+    font-size: 2vh;
+    font-weight: 700;
 }

@@ -8,3 +8,8 @@
 body{
     background: var(--color-prymary);
 }
+
+main .Imagenes img {
+    display: flex;
+    flex-direction: column;
+}

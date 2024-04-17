@@ -37,36 +37,42 @@ body{
     align-items: right;
     flex-direction: column;
     width: 100vh;
-
+    margin-left: -90vh;
+    
 }
 
 .rightie h1 {
     font-size: 7vh;
     font-weight: 700;
+    line-height: 8vh;
 }
+/* line-height: 0.5em ------ Tamaño entrelineado*/
 
 .rightie .content, .rightie .Texto, .rightie .Texto2 {
-    font-size: 3.5vh;
-    font-weight: 400;
+    font-size: 3vh;
+    line-height: 4vh;
 }
 
 .rightie .Explore {
     background: var(--color-text-primary);
     color: var(--color-text-tercero);
     display: flex;
-    margin-top: 2vh;
-    width: 15vh;
-    height: 5vh;
     align-items: center;
     justify-content: center;
+    align-content: center;
+    text-align: center;
+    margin-top: 4vh;
+    margin-bottom: 5vh;
+    width: 18vh;
+    height: 6vh;
     border-radius: 10px;
     border-radius: 20%;
-    font-size: 3vh;
+    font-size: 1.8vh;
     font-weight: 700;
 }
 
 .rightie .número01, .rightie .número02{
     color: var(--color-text-secundary);
-    font-size: 2vh;
+    font-size: 2.6vh;
     font-weight: 700;
 }

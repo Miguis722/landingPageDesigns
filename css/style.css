@@ -2,9 +2,28 @@
 *{
     padding: 0;
     margin: 0;
+    margin-top: 2vh;
     box-sizing: border-box;
 }
 
 body{
-    background: var(--color-prymary);
+    background: var(--color-primary);
+    color: var(--color-text-primary);
+}
+
+
+.leftie {
+    display: flex;
+    flex-direction: initial;
+    justify-content: justify;
+    align-items: left;
+}
+
+.leftie img {
+    height: 95vh;
+}
+.rightie{
+    display: flex;
+    justify-content: justify;
+    align-items: right;
 }

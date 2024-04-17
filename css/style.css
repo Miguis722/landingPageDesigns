@@ -1,12 +1,28 @@
 @import url(variables.css);
 *{
     padding: 0;
-    margin: 0;
+    margin: 1;
     box-sizing: border-box;
 }
 
 body{
     background: var(--color-prymary);
+}
+
+/* aside .Ladoizquierdo .tittle h1{
+    font-size: 10vh;
+} */
+
+.Diseño h1 {
+    color: var(--color-sixternary);
+}
+
+.Creacion h1 {
+    color: var(--color-quiternary);
+}
+
+.Inspira h1 {
+    color: var(--color-cuarternaryxd);
 }
 
 main .Imagenes img {

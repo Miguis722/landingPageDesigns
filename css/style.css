@@ -3,18 +3,31 @@
     padding: 0;
     margin: 1;
     box-sizing: border-box;
+    margin-left: 1vh;
 }
 
 body{
     background: var(--color-prymary);
 }
+.Creacion h1, .Inspira h1, 
+.Diseño h1{
+    font-size: 8vh;
+    line-height: 3vh;
+}
 
-/* aside .Ladoizquierdo .tittle h1{
-    font-size: 10vh;
-} */
+.Ladoizquierdo {
+    display: flex;
+    flex-direction: column;
+    justify-content: justify;
+    text-align: justify;
+}
 
 .Diseño h1 {
     color: var(--color-sixternary);
+}
+
+.texto .texto1 p {
+    color: var(--color-tertiary);
 }
 
 .Creacion h1 {
@@ -25,7 +38,15 @@ body{
     color: var(--color-cuarternaryxd);
 }
 
+main .columnas > *{
+    column-count: 4;
+    column-gap: 9vh;
+    column-width: 15px;
+}
+
 main .Imagenes img {
     display: flex;
     flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }

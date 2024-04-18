@@ -54,3 +54,8 @@ body{
     width: auto; 
     height: auto; 
 }
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}

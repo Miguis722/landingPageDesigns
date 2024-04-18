@@ -8,6 +8,7 @@
 
 body{
     background: var(--color-prymary);
+    font-family: var(--texto-poppins-regular);
 }
 .Creacion h1, .Inspira h1, 
 .Diseño h1{
@@ -28,6 +29,7 @@ body{
 
 .texto .texto1 p {
     color: var(--color-tertiary);
+    font-family: var(--texto-poppins-regular);
 }
 
 .Creacion h1 {
@@ -38,15 +40,17 @@ body{
     color: var(--color-cuarternaryxd);
 }
 
-main .columnas > *{
-    column-count: 4;
-    column-gap: 9vh;
-    column-width: 15px;
+.columnas {
+    display: flex;
+    flex-wrap: wrap;
 }
 
-main .Imagenes img {
-    display: flex;
+.Imagenes, .Imagenes2, .Imagenes3, .Imagenes4 {
     flex-direction: column;
-    justify-content: center;
-    align-items: center;
+    display: flex;
+}
+
+.Imagenes img {
+    width: auto; 
+    height: auto; 
 }

@@ -71,3 +71,17 @@ main {
     width: 16vh;
     margin-left: 3vh;
 }
+
+.Container{
+    display: flex;
+    height: 100%;
+    width: 100%;
+}
+
+.Container .Ladoizquierdo{
+    align-items: flex-start;
+}
+
+.Container main {
+    align-items: flex-end;
+}

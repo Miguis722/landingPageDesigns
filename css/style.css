@@ -12,7 +12,7 @@ body{
 }
 .Creacion h1, .Inspira h1, 
 .Diseño h1{
-    font-size: 8vh;
+    font-size: 12vh;
     line-height: 3vh;
 }
 
@@ -21,6 +21,7 @@ body{
     flex-direction: column;
     justify-content: justify;
     text-align: justify;
+    margin-top: 15vh;
 }
 
 .Diseño h1 {
@@ -30,6 +31,7 @@ body{
 .texto .texto1 p {
     color: var(--color-tertiary);
     font-family: var(--texto-poppins-regular);
+    font-size: 4vh;
 }
 
 .Creacion h1 {
@@ -48,11 +50,19 @@ body{
 .Imagenes, .Imagenes2, .Imagenes3, .Imagenes4 {
     flex-direction: column;
     display: flex;
+    margin-bottom: 1vh; 
+}
+
+.Imagenes img, .Imagenes2 img, .Imagenes3 img, .Imagenes4 img {
+    width: 21.8vh; 
+    height: auto; 
+    margin-bottom: 1vh; 
 }
 
 .Imagenes img {
-    width: auto; 
+    width: 21.8vh; 
     height: auto; 
+    margin-bottom:1vh;
 }
 main {
     display: flex;
@@ -70,12 +80,15 @@ main {
     height: 6vh;
     width: 16vh;
     margin-left: 3vh;
+    font-size: 2vh;
+    margin-top: -2vh;
 }
 
 .Container{
     display: flex;
     height: 100%;
     width: 100%;
+    justify-content: space-between;
 }
 
 .Container .Ladoizquierdo{
@@ -84,4 +97,6 @@ main {
 
 .Container main {
     align-items: flex-end;
+    margin-top: 4vh;
+    margin-right: 10vh;
 }

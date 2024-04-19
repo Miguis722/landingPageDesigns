@@ -8,3 +8,16 @@
 body{
     background: var(--color-prymary);
 }
+
+header {
+    width: 100%;
+    display: flex;
+}
+
+.contenido_superior {
+    position: absolute;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+

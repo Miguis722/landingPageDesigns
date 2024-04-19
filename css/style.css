@@ -1,7 +1,7 @@
 @import url(variables.css);
 *{
     padding: 0;
-    margin: 0;
+    margin: 1;
     box-sizing: border-box;
 }
 
@@ -11,20 +11,22 @@ body{
 
 .Container {
     display: flex;
+    justify-content: flex-start;
 }
 
 .Izquierda img{
     flex-direction: column;
     align-items: flex-start;
-    height: 99.5vh;
+    height: 99vh;
     width: 100vh;
-    margin-left: -12vh;
 }
 
-.Derecha > .Container > * {
+.Derecha > .Container > * > {
     display: flex;
     flex-direction: column;
     align-items: flex-end;
+    margin-top: 20px;
+    margin-left: 20px;
 }
 
 .tittle h1{
@@ -35,7 +37,7 @@ body{
 
 .text p{
     color: var(--color-secundario);
-    font-size: 3vh;
+    font-size: 2.5vh;
     font-family: 'Work-Sans-Light';
 }
 
@@ -49,4 +51,5 @@ body{
     justify-content: center;
     height: 7vh;
     width: 18vh;
+    font-size: 3vh;
 }

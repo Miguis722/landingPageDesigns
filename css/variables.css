@@ -1,3 +1,21 @@
 :root{
-    --color-prymary: #ff0000;
+    --color-prymary: #A32305;
+    --color-secundario: #fff;
+    --color-tercero: #000;
+    --color-cuarto: #E5B94B;
+}
+
+@font-face {
+    font-family: Work-Sans-Bold;
+    src: url(../storage/font/Work_Sans/WorkSans-Bold.ttf);
+}
+
+@font-face {
+    font-family: Work-Sans-Light;
+    src: url(../storage/font/Work_Sans/WorkSans-Light.ttf);
+}
+
+@font-face {
+    font-family: Work-Sans-Medium;
+    src: url(../storage/font/Work_Sans/WorkSans-Medium.ttf);
 }

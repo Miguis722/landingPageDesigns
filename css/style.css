@@ -8,3 +8,45 @@
 body{
     background: var(--color-prymary);
 }
+
+.Container {
+    display: flex;
+}
+
+.Izquierda img{
+    flex-direction: column;
+    align-items: flex-start;
+    height: 99.5vh;
+    width: 100vh;
+    margin-left: -12vh;
+}
+
+.Derecha > .Container > * {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
+
+.tittle h1{
+    color: var(--color-secundario);
+    font-size: 10vh;
+    font-family: 'Work-Sans-Bold';
+}
+
+.text p{
+    color: var(--color-secundario);
+    font-size: 3vh;
+    font-family: 'Work-Sans-Light';
+}
+
+.Explore {
+    display: flex;
+    background: var(--color-cuarto);
+    border-radius: 20%;
+    font-family: 'Work-Sans-Medium';
+    color: var(--color-tercero);
+    align-items: center;
+    justify-content: center;
+    height: 7vh;
+    width: 18vh;
+}

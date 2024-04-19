@@ -9,15 +9,29 @@ body{
     background: var(--color-prymary);
 }
 
-header {
+main {
     width: 100%;
     display: flex;
 }
 
-.contenido_superior {
+.contenido_superior > main {
     position: absolute;
     justify-content: center;
     align-items: center;
     text-align: center;
 }
 
+.contenido_superior .tittle{
+    font-family: 'Lato-Bold';
+    color: var(--color-secundario);
+}
+
+.text p {
+    font-family: 'Lato-Regular';
+    color: var(--color-secundario);
+}
+
+.Explore p {
+    font-family: 'Lato-Medium';
+    color: var(--color-terciario);
+}

@@ -22,3 +22,26 @@ body{
     font-family: 'Poppins-regular';
     font-size: 2.8vh;
 }
+
+.Container {
+    position: relative;
+}
+
+.Image_Left_Down {
+    position: absolute;
+    bottom: 0;
+    left: 5vh;
+    z-index: -1;
+}
+
+.Image_Right_Up {
+    position: absolute;
+    top: 0;
+    right: 5vh;
+    z-index: -1;
+}
+
+.Image_Left_Down {
+    height: 50vh;
+    width: 45vh;
+}

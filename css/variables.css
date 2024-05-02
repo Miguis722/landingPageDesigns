@@ -3,10 +3,10 @@
 }
 
 @font-face {
-    font-family: Poppins-bold;
+    font-family: 'Poppins-bold';
     src: url(../storage/font/Poppins/Poppins-Bold.ttf);
 }
 @font-face {
-    font-family: Poppins-regular;
+    font-family: 'Poppins-regular';
     src: url(../storage/font/Poppins/Poppins-Light.ttf);
 }

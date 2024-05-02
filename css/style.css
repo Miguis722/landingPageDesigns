@@ -22,6 +22,20 @@ body{
     font-family: 'Poppins-regular';
     font-size: 2.8vh;
 }
+.Explore a {
+    text-decoration: none;
+    color: var(--color-tercero);
+    font-family: 'Poppins-regular';
+}
+
+.Explore {
+    background: var(--color-secundario);
+    height: 5vh;
+    width: 15vh;
+    text-align: center;
+    align-items: center;
+    border-radius: 15px;
+}
 
 .Container {
     position: relative;

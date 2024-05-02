@@ -66,17 +66,25 @@ body{
     width: 45vh;
 }
 
-.Parte_inferior {
-    background: #fff;
-    border-radius: 10px;
-    padding: 5vh;
+.Text_Under_All_sections {
+    /*                                Aqui es el número Alfa (nivel de transparencia) */
+    background: rgba(209, 203, 203, 0.5);
+    border-radius: 10%;
     margin: 40vh;
-    margin-left: 90vh;
+    margin-left: 45vh;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 35px;
+    height: 24vh;
+    width: 100vh;
+    justify-content: space-around;
 }
 
-.Texto1 {
+.Texto {
     font-family: 'Poppins-regular';
-    color: var(--color-secundario)
+    color: var(--color-secundario);
+    font-size: .8rem;
 }
 
 .numero {
@@ -87,6 +95,11 @@ body{
 .linea {
     color: var(--color-secundario);
     width: 28px;
+}
+
+.linea2 {
+    color: var(--color-secundario);
+    width: 31px;
 }
 
 .Parte_superior {

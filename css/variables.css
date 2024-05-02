@@ -1,5 +1,6 @@
 :root{
     --color-prymary: #ADB6B7;
+    --color-secundario: #363830;
 }
 
 @font-face {
@@ -9,4 +10,8 @@
 @font-face {
     font-family: 'Poppins-regular';
     src: url(../storage/font/Poppins/Poppins-Light.ttf);
+}
+@font-face {
+    font-family: 'Poppins-semibold';
+    src: url(../storage/font/Poppins/Poppins-SemiBold.ttf);
 }

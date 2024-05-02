@@ -45,3 +45,26 @@ body{
     height: 50vh;
     width: 45vh;
 }
+
+.Parte_inferior {
+    background: #fff;
+    border-radius: 10px;
+    padding: 5vh;
+    margin: 40vh;
+    margin-left: 90vh;
+}
+
+.Texto1 {
+    font-family: 'Poppins-regular';
+    color: var(--color-secundario)
+}
+
+.numero {
+    font-family: 'Poppins-semibold';
+    color: var(--color-secundario);
+}
+
+.linea {
+    color: var(--color-secundario);
+    width: 28px;
+}

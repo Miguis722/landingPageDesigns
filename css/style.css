@@ -40,7 +40,7 @@ body{
     text-align: center;
     align-items: center;
     align-content: center;
-    border-radius: 15px;
+    border-radius: 25px;
 }
 
 .Container {
@@ -87,4 +87,8 @@ body{
 .linea {
     color: var(--color-secundario);
     width: 28px;
+}
+
+.Parte_superior {
+    margin-left: 50vh;
 }

@@ -4,3 +4,8 @@
     --color-text-secondary: #000;
 
 }
+
+@font-face {
+    font-family: 'PT-SERIF-BOLD';
+    src: url(../storage/font/PT_Serif/PTSerif-Bold.ttf);
+}
